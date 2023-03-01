@@ -3,3 +3,5 @@ tensorflow
 djangorestframework
 django-cors-headers
 Pillow
+matplotlib
+opencv-python

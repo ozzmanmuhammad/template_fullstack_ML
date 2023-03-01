@@ -45,7 +45,7 @@ class ImageLIst extends Component {
 
     render() {
         const images = this.state.images.slice(0, this.state.visible).map(img=>{
-            return <Image key={img.id} pic={img.picture} name={img.classified} />
+            return <Image key={img.id} pic={img.predicted} name={img.classified} />
         })
         return (
             <div>

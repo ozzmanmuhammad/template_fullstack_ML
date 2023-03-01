@@ -116,7 +116,7 @@ class Classifier extends Component {
                                     <Alert variant='primary'>
                                         {this.state.recentImage.data.classified}
                                     </Alert>
-                                    <Image className='justify-content-center' src={this.state.recentImage.data.picture}
+                                    <Image className='justify-content-center' src={'http://127.0.0.1:8000'+this.state.recentImage.data.predicted}
                                            height='200' rounded/>
                                 </React.Fragment>
                             }
