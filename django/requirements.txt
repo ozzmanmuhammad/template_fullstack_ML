@@ -1,0 +1,5 @@
+django
+tensorflow
+djangorestframework
+django-cors-headers
+Pillow
