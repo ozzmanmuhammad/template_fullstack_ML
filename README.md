@@ -1,6 +1,6 @@
-# kumar045-Django-React-Image-Classification-App
+#Django-React-Image-DL-App
 
-Prerequisites
+<h3>Prerequisites</h3>
 Install Node JS
 Refer to https://nodejs.org/en/ to install nodejs
 
@@ -17,7 +17,7 @@ npm start
 
 The Application Runs on localhost:3000
 
-For Django
+<h3>For Django</h3>
 
 Go to Django folder
 
@@ -34,4 +34,4 @@ HTTP client
 
 axios library is used to make HTTP Calls from react app to upload image for classification and to get classification result
 
-Used tensorflow for classification model
+Used tensorflow for predictions model
