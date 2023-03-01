@@ -1,21 +1,31 @@
-#Django-React-Image-DL-App
+<h1>Django-React-Image-DL-App</h1>
+
+
 
 <h3>Prerequisites</h3>
+
+
+<h3>For React</h3>
+
 Install Node JS
 Refer to https://nodejs.org/en/ to install nodejs
 
 Cloning and Running the Application in local
 Clone the project into local
 
+<code>git clone ..</code>
+
 Install all the npm packages. Go into the react folder and type the following command to install all npm packages
 
-npm install
+<code>npm install</code>
 
 In order to run the application Type the following command
 
-npm start
+<code>npm start</code>
 
 The Application Runs on localhost:3000
+
+<hr>
 
 <h3>For Django</h3>
 
@@ -23,12 +33,12 @@ Go to Django folder
 
 For installing required packages, execute the following command in terminal:
 
-$pip install -r requirements.txt
+<code>$pip install -r requirements.txt</code>
 
 After successful installation execute the following commands:
 
-$python manage.py migrate
-$python manage.py runserver
+<code>$python manage.py migrate</code>
+<code>$python manage.py runserver</code>
 
 HTTP client 
 
